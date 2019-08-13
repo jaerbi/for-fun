@@ -1,0 +1,13 @@
+<div class="dropdown">
+
+  <a class="share" appDropdown>Share it!</a>
+
+  <!-- Dropdown Structure -->
+  <ul class="d-flex dropdown-content">
+    <li *ngFor="let social of socials">
+      <a (click)="onSoc()">
+        <img [src]="social.url" [alt]="social.title">
+      </a>
+    </li>
+  </ul>
+</div>

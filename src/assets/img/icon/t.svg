@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 42 42" width="42" height="42">
+	<defs>
+		<image width="42" height="42" id="img1" href="data:image/png;base64,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"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="desktop">
+		<g id="desktop_layers">
+			<g id="product">
+				<g id="info">
+					<g id="share">
+						<g id="toggle">
+							<g id="buttons">
+								<g id="t">
+									<use id="Icon" href="#img1" transform="matrix(1,0,0,1,0,0)"/>
+								</g>
+							</g>
+						</g>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</svg>

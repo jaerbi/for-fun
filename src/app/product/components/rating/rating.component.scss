@@ -1,0 +1,27 @@
+.rating {
+  justify-content: flex-end;
+  flex-direction: row-reverse;
+
+  > input {
+    display: none;
+
+    &:checked ~ label {
+      .shp0 {
+        fill: var(--rating-color  );
+      }
+    }
+  }
+
+  > label {
+    cursor: pointer;
+    font-size: 24px;
+
+    .shp0 {
+      fill: var(--rating-not-checked-color);
+    }
+
+    &:hover {
+      opacity: .86;
+    }
+  }
+}

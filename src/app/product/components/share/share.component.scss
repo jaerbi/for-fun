@@ -1,0 +1,44 @@
+.dropdown {
+  position: relative;
+
+  .share {
+    font-size: 18px;
+    color: var(--link-color);
+    font-weight: 700;
+    text-align: right;
+    display: block;
+    cursor: pointer;
+    width: 93px;
+  }
+
+  .dropdown-content {
+    display: none;
+  }
+
+  .open {
+    + .dropdown-content {
+      position: absolute;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 296px;
+      height: 98px;
+      padding: 0 20px;
+      left: 50%;
+      bottom: 34px;
+      transform: translate(-47%, 135%);
+      background: var(--background-soc);
+
+      li {
+        padding-top: 10px;
+      }
+
+    }
+
+
+  }
+
+}
+
+
+

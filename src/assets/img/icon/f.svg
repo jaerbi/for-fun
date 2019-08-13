@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 42 42" width="42" height="42">
+	<defs>
+		<image width="42" height="42" id="img1" href="data:image/png;base64,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"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="desktop">
+		<g id="desktop_layers">
+			<g id="product">
+				<g id="info">
+					<g id="share">
+						<g id="toggle">
+							<g id="buttons">
+								<g id="f">
+									<use id="Icon" href="#img1" transform="matrix(1,0,0,1,0,0)"/>
+								</g>
+							</g>
+						</g>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</svg>

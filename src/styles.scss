@@ -1,1 +1,114 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Oswald:700&display=swap'); // Oswald bold
+
+:root {
+  --home-color: #ffffff;
+  --dark-color: #2c303d;
+  --darker--color: #282828;
+  --discount-color: #ce2c52;
+  --rating-color: #cd2b51;
+  --rating-not-checked-color: #ababab;
+  --product-color: #eaf2f4;
+  --link-color: #2c87ce;
+
+  --share-shadow: 0 0 5px rgba(0,0,0,0.75);
+
+  --background-soc: url('./assets/img/background_soc.png');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+  line-height: 1;
+  background: var(--home-color);
+  color: var(--dark-color);
+}
+
+h1 {
+  font-size: 24px;
+  line-height: 15px;
+  letter-spacing: 1px;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  cursor: pointer;
+}
+
+.wrapper {
+  max-width: 934px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.container {
+  max-width: 835px;
+  margin: 30px auto 0;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.product {
+  justify-content: space-between;
+
+  &__image, &__info {
+    width: 398px;
+    height: 420px;
+  }
+
+  &__image {
+    background-color: var(--product-color);
+  }
+
+  &__info {
+
+    &-id {
+      font-size: 10px;
+      letter-spacing: 1px;
+      font-weight: 400;
+      padding: 22px 0 24px;
+    }
+
+    &-price {
+      font-size: 24px;
+      font-weight: 700;
+
+      > span {
+        text-decoration: line-through;
+        padding-right: 23px;
+      }
+
+      .discount {
+        text-decoration: none;
+        color: var(--discount-color);
+      }
+    }
+
+    &-detail {
+      width: 380px;
+      height: 131px;
+      font-size: 12px;
+      letter-spacing: 0px;
+      line-height: 15px;
+      color: #282828;
+      font-weight: 300;
+    }
+
+    &-soc {
+      align-items: center;
+      padding: 18px 0 26px;
+    }
+  }
+}

@@ -1,0 +1,50 @@
+<div class="product d-flex">
+  <div class="product__image">
+    <img src="../assets/img/lightbringerTrans.png" alt="Product">
+  </div>
+  <div class="product__info">
+
+    <h1>For gamers by gamers TEE</h1>
+
+    <p class="product__info-id">Item #: 701642853695</p>
+
+    <p class="product__info-price">
+      <span>$29.50</span>
+      <span class="discount"> $19.99</span>
+    </p>
+
+    <div class="product__info-soc d-flex">
+
+      <!--Product rating-->
+      <app-rating></app-rating>
+
+      <!--Product share-->
+      <app-share></app-share>
+    </div>
+
+    <p class="product__info-detail">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+      dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+      ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+      fugiat nulla pariatur.
+    </p>
+
+    <div class="product__info-actions">
+      <div class="size">
+        <h3>Size:</h3>
+        <div *ngFor="let size of sizes">
+          {{ size }}
+        </div>
+      </div>
+      <div class="color">
+        <h3>Color:</h3>
+        <div *ngFor="let color of colors">
+          {{ color }}
+        </div>
+      </div>
+    </div>
+
+    <button>Add to cart</button>
+
+  </div>
+</div>
